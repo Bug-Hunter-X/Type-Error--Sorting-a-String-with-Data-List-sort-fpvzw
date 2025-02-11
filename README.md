@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Haskell: attempting to use a function designed for lists on a string directly. The `Data.List.sort` function expects a list, not a string.  The solution shows how to correctly convert the string to a list of characters before sorting and then convert it back to a string.
